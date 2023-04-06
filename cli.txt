@@ -1,0 +1,44 @@
+pwd -> present working directory
+ls -> list files and directories
+cd -> change directory
+cd .. ->change directory to one level up 
+
+cd /  -> change to root directory 
+
+cd /directory_name 
+
+ls -a or ls --all  -> list all including hidden file and directories
+
+
+ls --help 
+
+ls -l -> list directories and files in long format
+
+cd ~ -> change directory to user home directory
+
+which ls -> tells where ls is stored
+
+ls --ignore  file_name -> ignore file while listing 
+
+ls --ignore=file_name -> ignore files while listing 
+
+~ -> this is tilda
+
+echo hello world -> this will output whatever is written after echo 
+
+!!  and enter, it'll run the last command you ran . !! is called bang
+
+cat file_name -> display contents inside file 
+
+
+while writing some commands and want to jump 
+CTRL + A  takes you to the beginning of the line
+CTRL + E – takes you to the end of the line
+CTRL + K – "yank" everything after the cursor
+CTRL + U – "yank" everything before the cursor
+CTRL + Y - "paste" (paste in quotes because it doesn't actually go into your system clipboard) everything you yanked
+CTRL + L - clear the screen
+CTRL + R – reverse search through history
+
+
+ps -> processes
