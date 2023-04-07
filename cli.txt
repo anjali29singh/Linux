@@ -41,4 +41,33 @@ CTRL + L - clear the screen
 CTRL + R – reverse search through history
 
 
-ps -> processes
+ps (process snapshot)-> list all processes
+
+pid -> process id . every process or command running has id 
+
+sleep n -> wait for n seconds 
+
+& -> run  processes in background
+
+sleep -n & -> run sleep in background
+
+to pause a running process -> CTRL + Z
+
+jobs -> notice process is stopped
+ 
+bg (background)->  resume  process in the background
+
+fg (foreground)
+
+less -> used to read file 
+
+more -> also read content of file
+
+man -> manual
+ 
+man less -> gives manual of less 
+
+tail -> last line of file and outputs it 
+
+head -> reads first line of file and outputs it
+
