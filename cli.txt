@@ -1,4 +1,5 @@
 pwd -> present working directory
+
 ls -> list files and directories
 cd -> change directory
 cd .. ->change directory to one level up 
@@ -70,4 +71,26 @@ man less -> gives manual of less
 tail -> last line of file and outputs it 
 
 head -> reads first line of file and outputs it
+
+//creating and moving files
+
+touch file_name -> if file doesn't exist then creates it 
+
+rm -> remove files
+rm -r -> remove directory or rm -rf (remove force) \
+
+cp source destination -> copy 
+
+//output streams
+
+echo "first-text" 1>text.py -> redirect "first-text" into text.py
+echo "second-text" 1>text.py -> replace already present content with "second-text" 
+
+cat  text.py 1> new-text.py -> replace  contents of new-text.py to text.py
+cat text.py 1>> new-text.py -> instead of replace , this appends 
+//appending >>
+
+//stderr  : to redirect error 2>>
+
+cat hello-text.py 2 > text.py   -> hello-text is not found therefore error is redirected to text.py
 
