@@ -79,6 +79,9 @@ touch file_name -> if file doesn't exist then creates it
 rm -> remove files
 rm -r -> remove directory or rm -rf (remove force) \
 
+rm -i -> ask permission to delete files in folder 
+
+
 cp source destination -> copy 
 
 //output streams
@@ -93,4 +96,11 @@ cat text.py 1>> new-text.py -> instead of replace , this appends
 //stderr  : to redirect error 2>>
 
 cat hello-text.py 2 > text.py   -> hello-text is not found therefore error is redirected to text.py
+
+//input streams
+grep -> allows you to find text in file
+
+grep "hello" <hello.txt
+
+ps aux -> outputs all processing running
 
