@@ -126,8 +126,22 @@ cat ~/.ssh/id_rsa.pub
 
 chmod 700 ~/.ssh
 
-chmod 600 ~/.ssh/authorized_key
+chmod 600 ~/.ssh/authorized_keys    
 
 // ifconfig gives out bunch of addresses and hashes.
+
 // ip adress of inet 
+
 ssh anjali@<the ip address you just got from ifconfig on the other machine>
+
+//sftp  to transfer files between local and vm
+sftp anjali@<ip>
+
+lpwd  : local present working directory
+lcd : change local directory 
+lls : list local pwd
+! : can be used to run commands locally
+
+put hello.txt helloworld.txt : transfer hello.txt file from local to host
+
+get hello.txt helloworld.txt : download file to local from host 
